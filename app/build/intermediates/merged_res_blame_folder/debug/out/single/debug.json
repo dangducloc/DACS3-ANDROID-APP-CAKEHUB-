@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-merged_res-53:\\drawable__1.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-main-55:\\drawable\\_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-merged_res-53:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-main-55:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-merged_res-53:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-main-55:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-merged_res-53:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-main-55:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-merged_res-53:\\drawable__3.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-main-55:\\drawable\\_3.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-merged_res-53:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-main-55:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-merged_res-53:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-main-55:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-merged_res-53:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-main-55:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.mycake.app-merged_res-53:/drawable__4.png.flat",
+        "source": "com.mycake.app-main-55:/drawable/_4.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-merged_res-53:\\drawable__5.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-main-55:\\drawable\\_5.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-merged_res-53:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-main-55:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-merged_res-53:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-main-55:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "com.mycake.app-merged_res-53:/drawable__1.png.flat",
+        "source": "com.mycake.app-main-55:/drawable/_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-merged_res-53:\\drawable_bg_main.jpg.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-main-55:\\drawable\\bg_main.jpg"
+    },
+    {
+        "merged": "com.mycake.app-merged_res-53:/drawable_empty_cart.png.flat",
+        "source": "com.mycake.app-main-55:/drawable/empty_cart.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-merged_res-53:\\drawable_landing_img.jpg.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-main-55:\\drawable\\landing_img.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-merged_res-53:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-main-55:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.mycake.app-merged_res-53:/drawable__3.png.flat",
+        "source": "com.mycake.app-main-55:/drawable/_3.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-merged_res-53:\\drawable__2.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-main-55:\\drawable\\_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-merged_res-53:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-main-55:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-merged_res-53:\\drawable_empty_cart.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-main-55:\\drawable\\empty_cart.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-merged_res-53:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-main-55:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-merged_res-53:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-main-55:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-merged_res-53:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-main-55:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "com.mycake.app-merged_res-53:/drawable__5.png.flat",
+        "source": "com.mycake.app-main-55:/drawable/_5.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-merged_res-53:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-main-55:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.mycake.app-merged_res-53:/drawable__2.png.flat",
+        "source": "com.mycake.app-main-55:/drawable/_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-merged_res-53:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-main-55:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-merged_res-53:\\drawable__4.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-main-55:\\drawable\\_4.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-merged_res-53:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.2\\com.mycake.app-main-55:\\drawable\\ic_launcher_foreground.xml"
+    }
+]

@@ -1,0 +1,26 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable _1
+drawable _2
+drawable _3
+drawable _4
+drawable _5
+drawable bg_main
+drawable empty_cart
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable landing_img
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string title_activity_login
+style Theme.MyCake
+xml backup_rules
+xml data_extraction_rules
