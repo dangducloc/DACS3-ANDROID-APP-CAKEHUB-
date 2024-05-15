@@ -220,15 +220,16 @@ fun CartItem(iduser:Int,
         apiService.delete_CartItem(req = toDel){
             if(it!!.delete_item == true){
                 navController.navigate("carts_menu")
-            }else{
-                ondelete = 2
+            }
+            else{
+               ondelete = 2
             }
         }
     }
     if(ondelete == 2){
         //Toast.makeText(LocalContext.current,"something is wrong",Toast.LENGTH_SHORT).show()
-        navController.navigate("carts_menu")
-    }
+       navController.navigate("carts_menu")
+   }
 
 
 }

@@ -35,4 +35,10 @@ interface RestAPI {
     
     @POST("/api/checkOut")
     fun checkOut(@Body req:checkout_req):Call<checkOut>
+
+    @POST("/api/getOrders")
+    fun getOrders(@Body req:getOrders_req):Call<ArrayList<getOrders>>
+
+    @POST("/api/orderDetail")
+    fun orderDetail(@Body req:orderDetail_req):Call<ArrayList<orderDetail>>
 }

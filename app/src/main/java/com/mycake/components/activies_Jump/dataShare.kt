@@ -6,6 +6,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.*
 import androidx.lifecycle.ViewModel
 import com.mycake.API_stuff.models.cake
+import com.mycake.API_stuff.models.getOrders
 import com.mycake.API_stuff.models.login_result
 
 
@@ -28,6 +29,12 @@ class dataShare:ViewModel() {
         private set
     fun set_Cake (newcake:cake){
         cake = newcake
+    }
+
+    var order by mutableStateOf<getOrders?>(null)
+        private set
+    fun set_Order(neworder:getOrders){
+            order = neworder
     }
 
 }

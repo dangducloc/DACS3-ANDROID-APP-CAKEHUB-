@@ -234,6 +234,50 @@ class API_Manager {
         )
     }
 
+    fun getOrders(req:getOrders_req ,onResult: (ArrayList<getOrders>?) -> Unit ){
+        retrofit.getOrders(req = req).enqueue(
+            object : Callback<ArrayList<getOrders>>{
+                override fun onResponse(
+                    call: Call<ArrayList<getOrders>>,
+                    response: Response<ArrayList<getOrders>>
+                ) {
+                    val rs = response.body()
+                    onResult(rs)
+                    Log.d("getOrders_testing",rs.toString())
+                }
+
+                override fun onFailure(
+                    call: Call<ArrayList<getOrders>>,
+                    t: Throwable) {
+                    onResult(null)
+                    Log.e("err10", "Lỗi dmm", t)
+                }
+
+            }
+        )
+    }
+
+    fun orderDetail(req:orderDetail_req ,onResult: (ArrayList<orderDetail>?) -> Unit ){
+        retrofit.orderDetail(req = req).enqueue(
+            object : Callback<ArrayList<orderDetail>> {
+                override fun onResponse(
+                    call: Call<ArrayList<orderDetail>>,
+                    response: Response<ArrayList<orderDetail>>
+                ) {
+                    val rs = response.body()
+                    onResult(rs)
+                    Log.d("orderDetail_testing",rs.toString())
+                }
+
+                override fun onFailure(call: Call<ArrayList<orderDetail>>, t: Throwable) {
+                    onResult(null)
+                    Log.e("err11", "Lỗi dmm", t)
+                }
+
+            }
+        )
+    }
+
 }
 
 

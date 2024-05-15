@@ -40,3 +40,11 @@ data class  checkout_req(
     @SerializedName("address") val address:String?,
     @SerializedName("payment") val payment:Int?,
 )
+
+data class  getOrders_req(
+    @SerializedName("iduser") val iduser:Int?
+)
+
+data class  orderDetail_req(
+    @SerializedName("orderID") val orderID:Int?
+)

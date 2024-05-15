@@ -1,5 +1,7 @@
 package com.mycake.components.activies_Jump
 
+import android.os.Build
+import androidx.annotation.RequiresApi
 import androidx.compose.runtime.Composable
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.compose.NavHost
@@ -11,8 +13,11 @@ import com.mycake.components.Contract
 import com.mycake.components.Landing_page
 import com.mycake.components.Login
 import com.mycake.components.Main_menu
+import com.mycake.components.Order
+import com.mycake.components.Order_Detail
 import com.mycake.components.SignUp
 
+@RequiresApi(Build.VERSION_CODES.O)
 @Composable
 fun Main_Jump() {
     val navController = rememberNavController()
@@ -27,7 +32,8 @@ fun Main_Jump() {
         composable("carts_menu"){ Carts_menu(navController = navController,dataShare = dataShare)}
         composable("cake_detail"){ Cake_detail(navController = navController, dataShare = dataShare )}
         composable("contract"){ Contract(navController = navController, dataShare = dataShare)}
-//        composable("checkout"){ Checkout(navController =navController, dataShare = dataShare)}
+        composable("orders"){ Order(navController =navController, dataShare = dataShare)}
+        composable("order_detail"){ Order_Detail(navController =navController, dataShare = dataShare)}
 
     }
 }

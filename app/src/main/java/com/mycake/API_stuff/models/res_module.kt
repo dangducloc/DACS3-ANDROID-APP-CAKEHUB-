@@ -1,6 +1,7 @@
 package com.mycake.API_stuff.models
 
 import com.google.gson.annotations.SerializedName
+import okhttp3.Address
 
 //login
 data class login_result (
@@ -79,4 +80,46 @@ data class paymentMethod(
 data class checkOut(
     @SerializedName("checkedout") val checkedout: Boolean?,
     @SerializedName("wrongCake") val wrongCake: Int?
+)
+
+/*"orderID": 1,
+    "userID": 1,
+    "address": "LE LOI",
+    "order_date": "2024-03-09T23:08:17.000Z",
+    "payment": 2,
+    "name": "dummy",
+    "method": "credit card",
+    "status": 0
+ */
+data class getOrders(
+    @SerializedName("orderID") val orderID:Int?,
+    @SerializedName("userID") val userID:Int?,
+    @SerializedName("address") val address:String?,
+    @SerializedName("order_date") val order_date:String?,
+    @SerializedName("payment") val payment:Int?,
+    @SerializedName("name") val name:String?,
+    @SerializedName("method") val method:String?,
+    @SerializedName("status") val status:Int?
+)
+
+//{
+//    "orderID": 2,
+//    "idcake": 8,
+//    "name": "Butterscotch Chocolate Cake",
+//    "price": 30,
+//    "Amount": 1,
+//    "src": "8.jpg"
+//}
+data class orderDetail(
+    @SerializedName("orderID") val orderID: Int?,
+    @SerializedName("idcake") val idcake: Int?,
+    @SerializedName("name") val name: String?,
+    @SerializedName("price") val price: Int?,
+    @SerializedName("Amount") val Amount: Int?,
+    @SerializedName("left_Amount") val left_Amount: Int?,
+    @SerializedName("info") val info: String?,
+    @SerializedName("src") val src: String?,
+    @SerializedName("Type") val Type: Int?,
+    @SerializedName("typename") val typename: String?,
+
 )

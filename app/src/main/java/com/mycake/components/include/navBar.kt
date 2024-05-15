@@ -218,7 +218,9 @@ fun TopBar(navController: NavController){
             }
         },
         actions = {
-            IconButton(onClick = { /*somethingTODO()*/ }) {
+            IconButton(onClick = {
+                navController.navigate("orders")
+            }) {
                 Icon(
                     imageVector = Icons.Filled.AccountCircle,
                     contentDescription = null,
